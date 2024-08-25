@@ -14,6 +14,7 @@ import { MagicButton } from "./MagicButton";
 import GridGlobe from "./GridGlobe";
 import { FaArrowUp } from "react-icons/fa";
 
+
 export const BentoGrid = ({
   className,
   children,
