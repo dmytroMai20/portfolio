@@ -2,6 +2,7 @@ import { projects } from '@/data'
 import React from 'react'
 import { PinContainer } from './ui/3d-pin'
 import { FaLocationArrow } from 'react-icons/fa'
+import { cn } from '@/lib/utils'
 
 const RecentProjects = () => {
     return (
@@ -11,7 +12,7 @@ const RecentProjects = () => {
                 <span className='text-purple'>recent projects</span>
             </h1>
             <div className='flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10'>
-                {projects.map(({ id, title, des, img, iconLists, link }) => (
+                {projects.map(({ id, title, des, img, iconLists, iconClassnames, link }) => (
                     <div key={id} className='sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]'>
                             <PinContainer title={link} href={link}>
                             <a href={link}>
@@ -31,7 +32,7 @@ const RecentProjects = () => {
                         justify-between mt-7 mb-3'>
                                     <div className='flex items-center'>
                                         {iconLists.map((icon, index) => (
-                                            <div key={icon} className='border border-white/[0.2] rounded-full lg:bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center'
+                                            <div key={icon} className={cn(iconClassnames[index],'border border-white/[0.2] rounded-full lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center')}
                                                 style={{ transform: `translateX(-${5 * index * 2}px)` }}>
                                                 <img src={icon} alt={icon}
                                                     className='p-2' />

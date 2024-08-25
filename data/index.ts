@@ -76,6 +76,7 @@ export const navItems = [
       des: "An app which can bookmark and store cricket pitch locations to monitor weather conditions and display the combined score of conditions.",
       img: "/cricket_app.png",
       iconLists: ["/java.svg","/JavaFX.png", "/xml.svg", "/cache.svg"],
+      iconClassnames:["bg-white", "bg-white", "bg-black", "bg-white"],
       link: "https://github.com/dmytroMai20/myCricket",
     },
     {
@@ -84,6 +85,7 @@ export const navItems = [
       des: "Analyse past data and sentiment about tickers scraped from social platforms to calculate correlation between social markers and stock features.",
       img: "/stockanalyser.png",
       iconLists: ["/python.svg", "/docker.svg", "/aws.svg", "/selenium.svg", "/numpy.svg", "mysql.svg"],
+      iconClassnames:["bg-black", "bg-black", "bg-white", "bg-black", "bg-black", "bg-white"],
       link: "https://github.com/InvestmentProvenance/SocialStockAnalyser",
     },
     {
@@ -92,6 +94,7 @@ export const navItems = [
       des: "Produced a platform for companies and agencies to issue SBTs to represent certificates of employment or completion of courses that can be obtained by people.",
       img: "/mike_nft.png",
       iconLists: ["/Node.js_logo.svg", "/re.svg", "/aws.svg", "/solidity.svg", "/ethereum.svg"],
+      iconClassnames:["bg-white", "bg-black", "bg-white", "bg-black", "bg-white"],
       link: "https://github.com/ychunwei/mike-nft",
     },
     {
@@ -100,6 +103,7 @@ export const navItems = [
       des: "You are looking at it right now! This project is like a recursive function that references itself—only this time, there's no base case.",
       img: "/portfolio_ss.png",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/sentry.svg"],
+      iconClassnames:["bg-black", "bg-black", "bg-black", "bg-black"],
       link: "https://github.com/dmytroMai20/portfolio",
     },
   ];
@@ -116,7 +120,7 @@ export const navItems = [
     {
       id: 2,
       title: "Software Engineering Intern - Unibot",
-      desc: "Designed and developed a meeting database and messenger notification bot.",
+      desc: "Designed and developed a meeting database (MongoDB) and messenger notification bot (Node.JS).",
       className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
