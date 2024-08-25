@@ -42,8 +42,9 @@ export const TextGenerateEffect = ({
                 filter: filter ? "blur(10px)" : "none",
               }}
             >
-              {word}{" "}
+              {word}{idx===1 ? <br /> : " "}
             </motion.span>
+            
           );
         })}
       </motion.div>
