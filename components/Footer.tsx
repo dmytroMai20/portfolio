@@ -10,7 +10,7 @@ const footer = () => {
             <h1 className='heading lg:max-w-[45vw]'>
                 <span className='text-purple'>Connect</span> with me
             </h1>
-            <p className='text-white-200 md:mt-10 my-5 text-center'>I'm a passionate software engineer eager to tackle new challenges and bring innovative solutions to life. Whether you're looking to discuss a project, explore collaboration opportunities, or just connect, I'd love to hear from you.</p>
+            <p className='text-white-200 md:mt-10 my-5 text-center'>I&apos;m a passionate software engineer eager to tackle new challenges and bring innovative solutions to life. Whether you&apos;re looking to discuss a project, explore collaboration opportunities, or just connect, I&apos;d love to hear from you.</p>
             <a href="mailto:dmytro.mai20@gmail.com">
                 <MagicButton title='Let&apos;s get in touch' 
                     icon={<FaLocationArrow />}

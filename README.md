@@ -1,5 +1,6 @@
 # Portfolio website
 Personal Portfolio website using Next.JS, tailwind, typescript and sentry.
+[Live Website](https://dmytromai.com/)
 ### Libraries used:
 - Aceternity.ui https://ui.aceternity.com/
 - Framer Motion https://www.framer.com/motion/
@@ -16,9 +17,9 @@ npm run dev
 - [x] Change project pictures
 - [ ] Add dialog card when pressing on projects to display details
 - [x] Investigate the ownership issue on local device
-- [ ] Clean-up project files
+- [x] Clean-up project files
 - [x] Customize bentogrid section 
 - [x] Get footer links to work
 - [ ] Explore different color schemes and styles
-- [ ] Remove sentry example page before prod
-- [ ] Deploy on vercel
+- [x] Remove sentry example page before prod
+- [x] Deploy on vercel
