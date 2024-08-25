@@ -172,14 +172,7 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
-          {id === 3 && (
-              <div className="flex justify-start items-end h-full">
-              <a href="/skills" className="flex">
-                <p className='lg:text-xl md:text-xs text-sm text-purple'>Check out my skills</p>
-                <FaArrowUp className='ms-3' color='#CBACF9' style={{ transform: `translateX(-5px) translateY(5px)` }} />
-              </a>
-              </div>
-          )}
+          
           {id === 6 && (
             <div className="mt-5 relative">
               {/* button border magic from tailwind css buttons  */}

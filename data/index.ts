@@ -109,15 +109,15 @@ export const navItems = [
     {
       id: 1,
       title: "ML Intern - Cambridge Quantum Computing",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      desc: "Worked on a research project to investigate the use of DNNs to de-noise quantum circuits in NISQ computing.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
       title: "Software Engineering Intern - Unibot",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      desc: "Designed and developed a meeting database and messenger notification bot.",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
   ];
@@ -126,13 +126,11 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/dmytroMai20",
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/dmytro-mai-4681a2264/",
     },
   ];
